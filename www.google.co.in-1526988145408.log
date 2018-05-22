@@ -1,0 +1,18 @@
+/* In this printTimesTable(x) a parameter number value for x must be passed inorder
+ to generate a multiplication table of x from 1 time till 10 times */ 
+    function printTimesTable(x){ 
+        for(var i=1;i<=10;i++) {                //for conditional loop has i value initialized to 1, iterates 1 time to 10 times
+        console.log(x +" * "+i+" = "+(x * i)); //prints  multiplication table of the input number from 1 time to 10 times to the browser console
+    }
+}
+    printTimesTable(5);
+VM110:5 5 * 1 = 5
+VM110:5 5 * 2 = 10
+VM110:5 5 * 3 = 15
+VM110:5 5 * 4 = 20
+VM110:5 5 * 5 = 25
+VM110:5 5 * 6 = 30
+VM110:5 5 * 7 = 35
+VM110:5 5 * 8 = 40
+VM110:5 5 * 9 = 45
+VM110:5 5 * 10 = 50
